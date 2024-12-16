@@ -1,0 +1,98 @@
+body{
+    animation: Fadein 2s;
+    font-family: cairo;
+    background-color: black;
+    margin: 0;
+}
+.Game{
+
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 500px;
+    padding: 10px;
+    transition: all 0.3s;
+
+}
+.Game:hover{
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 500px;
+    padding: 10px;
+    font-size: larger;
+    transition: all 0.3s;
+}
+.back{
+    height: 50px;
+    transition: all 0.3s;
+
+}
+.back:hover{
+    height: 70px;
+    transition: all 0.3s;
+}
+.panel{
+    display: flex;
+    justify-content: right;
+}
+.stores{
+    display: flex;
+    justify-content: center;
+
+}
+.itch{
+    animation: Fadein 4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: #E83D3D;
+    border-radius: 100px;
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    transition: all 0.3s;
+
+}
+.itch:hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: #E83D3D;
+    border-radius: 100px;
+    width: 600px;
+    height: 60px;
+    padding: 20px;
+    font-size: larger;
+    transition: all 0.3s;
+}
+.itchio{
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+
+}
+.itchio:hover{
+    width: 80px;
+    height: 80px;
+    transition: all 0.3s;
+
+}
+@keyframes Fadein{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
